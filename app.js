@@ -6,19 +6,19 @@ function colorClock(){
   var seconds = date.getSeconds();
 
   if (hours <= 9) {
-    hours = "0" + hours;
+    hours = '0' + hours;
   }
   if (minutes <= 9) {
-    minutes = "0" + minutes;
+    minutes = '0' + minutes;
   }
   if (seconds <= 9) {
-    seconds = "0" + seconds;
+    seconds = '0' + seconds;
   }
 
   var clockFace = hours + ':' + minutes + ':' + seconds;
-  var hexColor = '#' + hours + minutes + seconds;
-
-  document.getElementById('clock').innerHTML = clockFace;
+  var hexColor = '#' + hours + minutes + seconds; 
+	
+	document.getElementById('clock').innerHTML = clockFace;
   document.body.style.background = hexColor;
 
   setTimeout(function() {
@@ -27,7 +27,6 @@ function colorClock(){
 }
 
 colorClock();
-
 
 
 

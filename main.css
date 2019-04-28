@@ -1,5 +1,6 @@
 * { margin: 0; padding: 0; }
 
+
 html, body {
   height: 100%;
 }
@@ -9,6 +10,9 @@ html, body {
   position: relative;
   top: 50%;
   font-family: 'Freckle Face', cursive;
+	color: #f0f4b0;
   font-size: 100px;
   margin-top: -50px;
+  border-radius: 25px;
+  box-shadow: hsla(70, 70%, 70%, 5.8) 10px 1px 90px;
 }
